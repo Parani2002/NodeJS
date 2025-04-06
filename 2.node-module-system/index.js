@@ -1,4 +1,8 @@
-const {a,b,c} = require('./first-module')
+const {greet} = require('./first-module')
 
-// console.log(firstModule);
-console.log(a);
+
+console.log("Node Module System");
+console.log("__filename", __filename);
+console.log("__dirname", __dirname);
+
+greet('Suntharalingam Paranitharan');
